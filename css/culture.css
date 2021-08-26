@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    
+    background-color: rgb(43, 46, 202);
+}
+.allcontent {
+    min-height: 100%;
+    background-color: rgba(255, 221, 71, 0.616);
+}
+
+#header {
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    background-color: #5b191aa6;
+    z-index: 10;
+    }
+    
+#logo {
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    padding-right: 100%;
+    position: fixed;
+    background-color: #5B191A;
+    flex-wrap: wrap;
+}
+#banner-1 {
+    padding-top: 30px;
+    padding-left: 750px;
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+.menu {
+    padding-top: 130px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-item {
+    border-radius: 5px;
+}
+.nav-item:hover {
+        padding-left: 10px;
+        background-color: rgb(243, 85, 85);
+        
+    }
+
+.dropdown-item:hover {
+        padding-left: 10px;
+        padding-top: 15px;
+}
+
+.date {
+    padding-top: 200px;
+    color: dimgray;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.row {
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-bottom: 50px;
+}
+
+
+.card-body {
+    margin-bottom: 0px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 0px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.card-text {
+    color: white;
+    font-size: 15px;
+}
+
+#footerfoto {
+    padding-bottom: 20px;
+    padding-left: 700px;
+    flex-wrap: wrap;
+}
+
+.gohome {
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: inline;
+}
+.go {
+    background-color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.linken {
+     padding-top: 10px;
+     padding-bottom: 0px;
+ }
+.linken a:hover {
+    color: maroon;
+}
+
+
+#munir {
+    background-color: black;
+    padding-bottom: 15px;
+    text-align: center;
+} 
+
+#munir .card-text {
+    font-size: 15px;
+}  
