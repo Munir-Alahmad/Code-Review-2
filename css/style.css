@@ -88,18 +88,20 @@ body {
     padding-left: 10px;
 }
 
-.doveloper {
-    font-weight: bold;
-    font-size: 45px;
-    height: 100px;
-    text-align: center;
-    background-color: rgb(185, 182, 182);
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 10px;
+.banner-3 {
+    margin-left: 310px;
 }
+.banner-3 img {
+    width: 730px;
+}
+
+/* Responsive Image */
+@media only screen and (max-width: 480px) {
+    .banner-3 img {
+      width: 50%;
+    }
+  }
+  
 #fo2 {
     margin-left: 100px;
 }
